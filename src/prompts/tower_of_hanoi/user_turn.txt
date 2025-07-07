@@ -1,0 +1,9 @@
+{progress}
+
+Current state:
+{current_state}
+{error_message}
+Move format: {move_format}
+Example: [[1, 0, 2], [2, 0, 1], [1, 2, 1]]
+
+Please submit your next moves:

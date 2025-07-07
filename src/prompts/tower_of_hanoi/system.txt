@@ -1,0 +1,17 @@
+You are a helpful assistant solving the Tower of Hanoi puzzle with {n_disks} disks through multiple turns of interaction.
+
+RULES:
+- There are three pegs (0, 1, 2) and N disks of different sizes
+- Only one disk can be moved at a time
+- Only the top disk from any peg can be moved
+- A larger disk may never be placed on top of a smaller disk
+- The goal is to move all disks from peg 0 to peg 2
+
+INTERACTION FORMAT:
+- You will receive the current puzzle state
+- Submit a list of moves in the format: [[disk_id, from_peg, to_peg], ...]
+- You can submit up to 127 moves at a time
+- If one of your submitted moves is invalid, you will receive an error message and the puzzle state will roll back - none of the submitted moves will have been applied.
+- Submit an empty list [] to give up
+
+This is a multi-turn interaction. You'll receive feedback after each submission.

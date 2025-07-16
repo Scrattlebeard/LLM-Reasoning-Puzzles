@@ -5,13 +5,13 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from inspect_ai.model import ChatMessage, ChatMessageSystem, ChatMessageUser
 from inspect_ai.solver import Generate, TaskState, solver
 
-from puzzles.base import (
+from src.puzzles.base import (
     CompletionResult,
     InvalidMoveError,
     PuzzleContext,
     PuzzleInterface,
 )
-from utils.templates import TemplateManager
+from src.utils.templates import TemplateManager
 
 logger = logging.getLogger(__name__)
 

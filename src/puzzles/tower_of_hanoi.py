@@ -4,7 +4,7 @@ import logging
 import re
 from typing import List, Optional, Tuple, Union
 
-from puzzles.base import InvalidMoveError, PuzzleInterface
+from src.puzzles.base import InvalidMoveError, PuzzleInterface
 
 logger = logging.getLogger(__name__)
 
